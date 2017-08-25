@@ -40,6 +40,18 @@ public class StreamOptionalTest {
         //reduce无初始值
         Optional<Integer> sum = someNumbers.stream().reduce((a,b) ->(a + b));
         System.out.println(sum.get());
+
+        //最大值和最小值
+        Optional<Integer> maxValue = someNumbers.stream().reduce(Integer::max);
+        System.out.println(maxValue.get());
+
+        //最大值和最小值
+        Optional<Integer> minValue = someNumbers.stream().reduce(Integer::min);
+        System.out.println(minValue.get());
+
+        int count = list.stream().map(d -> 1)
+                                .reduce(0,(a,b) -> a + b);
+        System.out.println(count);
     }
 
 }

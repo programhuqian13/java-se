@@ -2,11 +2,12 @@ package org.tony.java.jdk8.statement.lambda.example5;
 
 import org.tony.java.jdk8.statement.lambda.example4.Dish;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.*;
 
 /**
  * Created by xuanyi on 2017/8/25.
@@ -37,9 +38,33 @@ public class StreamCollectorsTest {
         return stream.collect(Collectors.counting());   //counting后台的实现也是为reducing进行汇总
     }
 
+    public static Optional<Dish> maxDishBy(Stream<Dish> stream,Comparator<Dish> comparator){
+        return stream.collect(maxBy(comparator));
+    }
+
+    public static Optional<Dish> minDishBy(Stream<Dish> stream,Comparator<Dish> comparator){
+        return stream.collect(minBy(comparator));
+    }
+
+    public static Comparator<Dish> dishComparator(){
+        return Comparator.comparingInt(Dish::getCalories);
+    }
+
     public static void main(String[] args) {
         System.out.println(count1(list.stream()));
         System.out.println(count2(list.stream()));
+
+        System.out.println(maxDishBy(list.stream(),dishComparator()).get());
+
+        System.out.println(minDishBy(list.stream(),dishComparator()).get());
+
+        //汇总操作
+        int total = list.stream().collect(summingInt(Dish::getCalories));
+        System.out.println(total);
+
+        Map<Dish.Type,List<Dish>> dishesByGroup = list.stream().collect(groupingBy(Dish::getType));
+        System.out.println(dishesByGroup);
+
     }
 
 

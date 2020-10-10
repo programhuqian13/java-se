@@ -7,7 +7,6 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toSet;
 
 /**
- * Created by xuanyi on 2017/8/24.
  * stream 综合测试
  */
 public class StreamMultipleTest {

@@ -8,9 +8,6 @@ import org.tony.java.jdk8.statement.lambda.option.example1.Person;
 import java.util.Optional;
 
 /**
- * @Description 描述
- * @Version 1.0
- * @Author xuanyi@baofu.com
  * @Date 2018/6/14
  * @ProjectName java-se
  * @PackageName org.tony.java.jdk8.statement.lambda.option

@@ -5,7 +5,6 @@ import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 /**
- * Created by xuanyi on 2017/8/29.
  */
 public class ParallelStreams{
 

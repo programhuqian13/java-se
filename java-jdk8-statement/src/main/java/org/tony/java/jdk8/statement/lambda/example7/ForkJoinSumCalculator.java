@@ -6,7 +6,6 @@ import java.util.concurrent.RecursiveTask;
 import java.util.stream.LongStream;
 
 /**
- * Created by xuanyi on 2017/8/29.
  * 用分支和合并框架执行并行求和
  */
 //继承RecursiveTask来创建可以用于分支/合并框架的任务

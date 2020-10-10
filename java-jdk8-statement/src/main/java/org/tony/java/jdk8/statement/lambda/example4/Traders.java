@@ -1,7 +1,6 @@
 package org.tony.java.jdk8.statement.lambda.example4;
 
 /**
- * Created by xuanyi on 2017/8/24.
  */
 public class Traders {
 

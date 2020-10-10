@@ -6,7 +6,6 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Created by xuanyi on 2017/8/1.
  * 应对不同的需求  --》 通过行为参数化传递代码
  */
 public class Example2 {

@@ -1,7 +1,6 @@
 package org.tony.java.jdk8.statement.lambda.example8.observermodel;
 
 /**
- * Created by xuanyi on 2017/8/30.
  * 观察者模式
  */
 public class Test {

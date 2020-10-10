@@ -5,7 +5,6 @@ import org.tony.java.jdk8.statement.lambda.example8.strategymodel.IsNumeric;
 import org.tony.java.jdk8.statement.lambda.example8.strategymodel.Validator;
 
 /**
- * Created by xuanyi on 2017/8/30.
  * 策略模式
  */
 public class Test {

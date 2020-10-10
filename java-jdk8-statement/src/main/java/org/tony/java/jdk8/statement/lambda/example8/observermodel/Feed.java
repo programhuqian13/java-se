@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by xuanyi on 2017/8/30.
  */
 public class Feed implements Subject{
 

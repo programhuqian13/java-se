@@ -8,7 +8,6 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
- * Created by xuanyi on 2017/8/25.
  * 映射为数值流
  */
 public class NumberStreamTest {

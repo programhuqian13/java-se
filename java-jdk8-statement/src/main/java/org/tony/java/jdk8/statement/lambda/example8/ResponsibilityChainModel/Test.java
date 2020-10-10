@@ -4,7 +4,6 @@ import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
 /**
- * Created by xuanyi on 2017/8/30.
  * 责任链模式
  */
 public class Test {

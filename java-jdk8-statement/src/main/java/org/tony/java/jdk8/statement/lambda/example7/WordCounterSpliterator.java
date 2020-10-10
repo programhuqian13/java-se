@@ -4,7 +4,6 @@ import java.util.Spliterator;
 import java.util.function.Consumer;
 
 /**
- * Created by xuanyi on 2017/8/29.
  * 实现自己的Spliterator
  */
 public class WordCounterSpliterator implements Spliterator<Character>{

@@ -11,7 +11,6 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
- * Created by xuanyi on 2017/8/25.
  * 创建流
  */
 public class CreateStreamTest {

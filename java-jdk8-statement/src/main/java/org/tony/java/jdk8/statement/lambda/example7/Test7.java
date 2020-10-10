@@ -7,7 +7,6 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 /**
- * Created by xuanyi on 2017/8/29.
  *
  * 并行数据处理和性能
  */

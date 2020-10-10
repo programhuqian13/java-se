@@ -1,7 +1,6 @@
 package org.tony.java.jdk8.statement.lambda.example8.ResponsibilityChainModel;
 
 /**
- * Created by xuanyi on 2017/9/4.
  */
 public abstract class ProcessingObject<T> {
 

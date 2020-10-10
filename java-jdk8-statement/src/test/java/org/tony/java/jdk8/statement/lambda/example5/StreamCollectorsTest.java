@@ -10,7 +10,6 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.*;
 
 /**
- * Created by xuanyi on 2017/8/25.
  * 用流收集数据
  * Collectors使用
  * Collectors工厂类提供了很多种收集器实例，汇总，归约，分组等等
